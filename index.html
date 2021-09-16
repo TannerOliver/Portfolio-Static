@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tanners Portfolio</title>
-    <link rel="stylesheet" href="Assets/style.css">
+    <link rel="stylesheet" href="./Assets/css/reset.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 <body>
 
@@ -32,12 +33,12 @@
     </Header>
 
     <p id="img-caption">
-        <img src="./Assets/tanner.jpg" alt="Image of Tanner Oliver">
+        <img src="./Assets/images/tanner.jpg" alt="Image of Tanner Oliver" class="tanner">
         Tanner Oliver
     </p>
 
     <main>
-        <h2 id="about-me">
+        <h2 class="about-me">
             About Me
         </h2>
         <p>
@@ -48,22 +49,24 @@
         </p>
     </main>
 
-    <section id="work">
+    <section class="work">
         <h2>
             My Work
         </h2>
-        <a href="https://github.com/TannerOliver/prework-about-me">
-            <img src="./Assets/charlie.jpg" alt="Misty Portrait of Guy">
-        </a>
-        <a href="https://github.com/TannerOliver/landing-page">
-            <img src="./Assets/little.jpg" alt="Figure in Leaves">
-        </a>
-        <a href="https://github.com/TannerOliver/semantic-tagging">
-            <img src="./Assets/smoke.jpg" alt="Tanner's Smokey Portrait">
-        </a>
+        <div class="my-work">
+            <a href="https://github.com/TannerOliver/prework-about-me">
+                <img src="./Assets/images/charlie.jpg" alt="Misty Portrait of Guy"class="charlie">
+            </a>
+            <a href="https://github.com/TannerOliver/landing-page">
+                <img src="./Assets/images/little.jpg" alt="Figure in Leaves" class="little">
+            </a>
+            <a href="https://github.com/TannerOliver/semantic-tagging">
+                <img src="./Assets/images/smoke.jpg" alt="Tanner's Smokey Portrait" class="smoke">
+            </a>
+        </div>    
     </section>
 
-    <section id="resume">
+    <section class="resume">
         <h2>
             Resume
         </h2>
@@ -72,10 +75,10 @@
         </p>
     </section>
 
-    <footer id="contact">
+    <footer class="contact">
         <h2>Contact Me</h2>
         <a href="phone" class="phone">555-555-5555</a>
-        <a href="email" class="email">435.tanner@gmail.com</a>
+        <a href="mailto:435.tanner@gmail.com" class="email">435.tanner@gmail.com</a>
         <a href="github" class="github">TannerOliver</a>
     </footer>
 
